@@ -19,6 +19,8 @@ body {
   
   main {
     padding: 40px;
+    display: flex;
+    justify-content: center;
   }
   
   .hero {
@@ -75,6 +77,7 @@ body {
     justify-content: space-between;
     padding: 40px;
     background-color: #F8F4E6;
+    color: #F8F4E6;
     gap: 20px;
   }
   
