@@ -3,105 +3,97 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F8F4E6;
-  }
-  
-  header {
+}
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
     background-color: #F8F4E6;
-  }
-  
-  .logo img {
+}
+
+.logo img {
     height: 40px;
-  }
-  
-  main {
-    padding: 40px;
+}
+
+main {
+    padding: 20px;
     display: flex;
     justify-content: center;
-  }
-  
-  .hero {
+}
+
+.hero {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 50px;
-  }
-  
-  .hero-image img {
-    height: 300px;
-  }
-  
-  .hero-text {
+    gap: 20px;
+}
+
+.hero-image img {
+    height: 200px;
+}
+
+.hero-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 300px;
-    text-align: left;
+    text-align: center;
     gap: 20px;
-  }
-  
-  .hero-text h1 {
+}
+
+.hero-text h1 {
     color: #3A6838;
-    font-size: 36px;
+    font-size: 24px;
     margin: 0;
-  }
-  
-  .hero-text p {
+}
+
+.hero-text p {
     color: #B35A34;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
-  }
-  
-  .get-started {
+}
+
+.get-started {
     display: inline-block;
     background-color: #3A6838;
     color: #FFFFFF;
     border: none;
-    padding: 15px 30px;
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: 14px;
     margin: 20px auto 0 auto;
     text-align: center;
     text-decoration: none;
-  }
-  
-  .get-started:hover {
+}
+
+.get-started:hover {
     background-color: #2F5530;
-  }
-  
-  .text-information {
+}
+
+.text-information {
     display: flex;
-    justify-content: space-between;
-    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
     background-color: #F8F4E6;
-    color: #F8F4E6;
     gap: 20px;
-  }
-  
-  .column {
+}
+
+.column {
     flex: 1;
     background-color: #6C8F32;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
-  
-  .left {
-    text-align: left;
-  }
-  
-  .center {
+    color: white;
+}
+
+.left, .center, .right {
     text-align: center;
-  }
-  
-  .right {
-    text-align: right;
-  }
-  
+}
 
 /* Media Queries for responsive design */
 @media (min-width: 600px) {
@@ -119,5 +111,17 @@ body {
         flex-direction: row;
         justify-content: space-between;
         padding: 40px;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .right {
+        text-align: right;
     }
 }
