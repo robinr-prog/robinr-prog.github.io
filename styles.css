@@ -3,57 +3,56 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F8F4E6;
-}
-
-header {
+  }
+  
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #FFFFFF;
-}
-
-.logo img {
+    background-color: #F8F4E6;
+  }
+  
+  .logo img {
     height: 40px;
-}
-
-main {
+  }
+  
+  main {
     padding: 40px;
-}
-
-.hero {
+  }
+  
+  .hero {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 20px;
-}
-
-.hero-image img {
+    gap: 50px;
+  }
+  
+  .hero-image img {
     height: 300px;
-}
-
-.hero-text {
+  }
+  
+  .hero-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: auto;
-    text-align: center;
+    height: 300px;
+    text-align: left;
     gap: 20px;
-}
-
-.hero-text h1 {
+  }
+  
+  .hero-text h1 {
     color: #3A6838;
     font-size: 36px;
     margin: 0;
-}
-
-.hero-text p {
+  }
+  
+  .hero-text p {
     color: #B35A34;
     font-size: 20px;
     margin: 0;
-}
-
-.get-started {
+  }
+  
+  .get-started {
     display: inline-block;
     background-color: #3A6838;
     color: #FFFFFF;
@@ -65,41 +64,41 @@ main {
     margin: 20px auto 0 auto;
     text-align: center;
     text-decoration: none;
-}
-
-.get-started:hover {
+  }
+  
+  .get-started:hover {
     background-color: #2F5530;
-}
-
-.text-information {
+  }
+  
+  .text-information {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    background-color: #FFFFFF;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #F8F4E6;
     gap: 20px;
-}
-
-.column {
+  }
+  
+  .column {
     flex: 1;
-    background-color: #FFFFFF;
+    background-color: #6C8F32;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
-
-.left {
+  }
+  
+  .left {
     text-align: left;
-}
-
-.center {
+  }
+  
+  .center {
     text-align: center;
-}
-
-.right {
+  }
+  
+  .right {
     text-align: right;
-}
+  }
+  
 
 /* Media Queries for responsive design */
 @media (min-width: 600px) {
